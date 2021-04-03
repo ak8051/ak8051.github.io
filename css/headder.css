@@ -1,0 +1,51 @@
+.headder{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headder .logo{
+    float: left;
+    width: 30%;
+    text-transform: uppercase;
+}
+.logo h1{
+    color: rgb(50, 179, 50);
+}
+.logo span{
+    color: gray;
+}
+
+.headder .mune{
+    float: right;
+    /*width: 30%;*/
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.headder .mune li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.mune a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.8s;
+    border-bottom: solid 2px;
+}
+
+.mune a:hover{
+    color: rgb(50, 179, 50);
+}
+
+.mune a:active{
+    border: solid yellow 2px;
+}

@@ -1,0 +1,21 @@
+.msimg{
+    background: url('../img/mestar.png');
+    width: 1200px;
+    max-width: 1200px;
+    border-radius: 50px;
+    transition: 0.8s;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.msimg h3{
+    text-transform: uppercase;
+    color: rgb(9, 255, 9);
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}

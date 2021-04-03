@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+@import "headder.css";
+@import "msimg.css";
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    font-family: 'Cairo', sans-serif;
+}
+
+.contenar{
+    width: 1200px;
+    margin: auto;
+}
+
